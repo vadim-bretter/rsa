@@ -11,9 +11,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    algoritm.cpp
 
 HEADERS  += mainwindow.h \
+    algoritm.h
 
 
 FORMS    += mainwindow.ui

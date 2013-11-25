@@ -22,7 +22,7 @@ private:
     void display();    
 
 private slots:
-    void Start();
+    void vivod();
     void saven();
     void openfil1();
     void openfil2();
