@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "BigIntegerLibrary.hh"
 
 using namespace std;
 
@@ -22,12 +23,13 @@ private:
     void display();    
 
 private slots:
-    void vivod();
+
     void saven();
     void openfil1();
     void openfil2();
     void openkey1();
     void openkey2();
+    void Start();
     void Inicialization(); // инициализация и генерация входных параметров
     void generate_p();
     void generate_q();
